@@ -42,6 +42,7 @@ public class StepDefinition extends LibGlobal {
 	@When("click on login button")
 	public void click_on_login_button() {
 		buttonClick(lpage.getBtnLogin());
+		System.out.println("changes");
 	    
 	}
 	@Then("Verify appication is logged in or not")
